@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Todo List App
+this is simple todo app created with the purpose to just learn.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
