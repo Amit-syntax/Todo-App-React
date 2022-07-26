@@ -5,20 +5,7 @@ import Footer from './MyComponents/Footer';
 import { useState } from 'react';
 
 function App() {
-  const [todosList, setTodosList] = useState([
-    {
-      sno: 1,
-      title: 'science work'
-    },
-    {
-      sno: 2,
-      title: 'yoga'
-    },
-    {
-      sno: 3,
-      title: 'maths HMW'
-    }
-  ])
+  const [todosList, setTodosList] = useState([])
 
   const onDeleteTodoItem = (todo)=>{
     setTodosList(todosList.filter((e)=>{
